@@ -1,10 +1,11 @@
 body, html {
     height: 100%;
-    display: grid;
+    /* display: grid; */
 }
   
 #container {
-    margin: auto;
+    /* margin: auto; */
+    margin-top: 200px;
     display: grid;
     justify-items: center;
     text-align: center;
@@ -54,5 +55,38 @@ button:focus {
 }
 
 #logo {
-    padding: 6%;
+    padding: 2%;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+}
+
+li {
+    float: right; 
+    
+    
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  #signin {
+      margin-top: -9px;;
+      background-color:#1a73e8;;
+      color: white;
+      border-radius: 6px;
+      width: 100px;
+      height: 38px;
+  }

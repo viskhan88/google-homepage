@@ -135,3 +135,25 @@ li a {
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
+
+#bottom-leftnav {
+    position: absolute;
+    bottom: 0;
+}
+
+#bottom-leftnav li {
+    float: left;
+}
+
+#bottom-rightnav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+} 
+
+#bottom-rightnav li {
+    float: right;
+    
+}
+

@@ -1,12 +1,9 @@
 body, html {
-    height: 100%;
-   
-    /* display: grid; */
+    height: 100%;  
 }
   
 #container {
-    /* margin: auto; */
-    margin-top: 100px;
+    margin-top: 10px;
     display: grid;
     justify-items: center;
     text-align: center;
@@ -17,8 +14,7 @@ body, html {
     border: 1px solid#DCDCDC;
     padding: 20px; 
     width: 500px;
-    height: 1px;  
-    
+    height: 1px;    
 }
 
 #ip:hover {
@@ -56,7 +52,7 @@ button:focus {
 }
 
 #logo {
-    padding: 2%;
+    padding: 1.9%;
 }
 
 ul {
@@ -137,41 +133,25 @@ li a {
     border-radius: 50%;
 }
 
-/* #bottom-leftnav {
-    position: absolute;
-    bottom: 0;
-}*/
 
 .bottom-leftnav li {
     float: left;
     
 }
 
-/* #bottom-rightnav {
-    position: absolute; 
-    bottom: 0; 
-    right: 0;
-    
-}   */
 
-/* #bottom-rightnav li {
-    float: right;
-
-    
-}   */
 
 
 
 .footer-container {
-    /* text-align: center; */
-    /* padding: 3px; */
+    
     background-color: gray;
     
     width: 100%;
     position: absolute;
     bottom: 0;
     background: #f2f2f2;
-    height: 130px;
+    height: 110px;
     
     
     
@@ -182,16 +162,15 @@ li a {
   }
 
   .country {
-      height: 50px;
+      height: 40px;
   }
 
-  /* .country {
-    position: absolute;
-    z-index: 100;
- 
-  
-  width: 150px;
-  height: 100px;
-  background-color: #ff751a;
-  opacity: 0.5; 
-  } */
+  .country {
+      display: table-cell;
+      vertical-align: middle;
+    
+  }
+
+  p {
+    font-size: 12px;
+  }
